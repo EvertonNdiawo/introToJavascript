@@ -1,0 +1,39 @@
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-sizing:border-box;
+    background-color:#000;
+}
+
+.center{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:50%;
+    height:400px;
+}
+
+.btn{
+    display:inherit;
+    width:120px;
+    height:40px;
+    border-radius:30px;
+    background-color:purple;
+}
+
+button{
+    height:40px;
+    width:60px;
+    border:2px solid rgba(128, 128, 128, 0.755);
+    border-radius:30px;
+    background-color:white;
+    color:purple;
+    text-align:center;
+    font-size:18px;
+    font-weight:600;
+}
+
+button:active{
+    margin-left:50%;
+}
